@@ -1,0 +1,36 @@
+name: build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    types: [ opened, synchronize ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ 16.x, 18.x, 20.x ]
+
+    steps:
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Setup Node Modules
+        uses: bahmutov/npm-install@v1
+      - run: npm run lint
+      - run: npm test
+        env:
+          CI: true
+
+      - name: GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        if: matrix.node-version == '18.x' && github.ref == 'refs/heads/main'
+        with:
+          BRANCH: gh-pages
+          FOLDER: target/site/serenity
+          CLEAN: true
