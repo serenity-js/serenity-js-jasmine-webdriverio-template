@@ -42,8 +42,8 @@
     "@serenity-js/serenity-bdd": "^3.13.2",
     "@serenity-js/web": "^3.13.2",
     "@serenity-js/webdriverio": "^3.13.2",
-    "@wdio/local-runner": "^8.22.1",
-    "@wdio/spec-reporter": "^8.21.0",
+    "@wdio/local-runner": "^8.23.0",
+    "@wdio/spec-reporter": "^8.23.0",
     "jasmine": "^5.1.0"
   },
   "devDependencies": {
