@@ -11,7 +11,7 @@ export const config: WebdriverIOConfig = {
     // =========================
 
     // Enable Serenity/JS framework adapter
-    // see: https://serenity-js.org/modules/webdriverio/
+    // see: https://serenity-js.org/api/webdriverio/
     framework: '@serenity-js/webdriverio',
 
     serenity: {
