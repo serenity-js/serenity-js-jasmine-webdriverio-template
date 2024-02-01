@@ -177,6 +177,7 @@ export const config: WebdriverIOConfig = {
     // Jasmine config, see https://serenity-js.org/api/jasmine-adapter/interface/JasmineConfig
     jasmineOpts: {
         defaultTimeoutInterval: 60000,
+        specDir: 'test/specs',
     },
 
     //
