@@ -46,7 +46,7 @@
     "jasmine": "^5.12.0"
   },
   "devDependencies": {
-    "@types/jasmine": "^5.1.11",
+    "@types/jasmine": "^5.1.12",
     "@types/node": "^22.18.11",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
