@@ -43,7 +43,7 @@
     "@serenity-js/webdriverio": "^3.43.3",
     "@wdio/local-runner": "^9.27.2",
     "@wdio/spec-reporter": "^9.27.2",
-    "jasmine": "^6.2.0"
+    "jasmine": "^6.3.0"
   },
   "devDependencies": {
     "@types/jasmine": "^6.0.0",
