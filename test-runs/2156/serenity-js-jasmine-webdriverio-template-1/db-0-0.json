@@ -1,0 +1,780 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-08-20T12:43:27.867Z",
+  "finishedAt": "2026-08-20T12:43:30.693Z",
+  "outcomes": {
+    "passed": 2,
+    "failed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "compromised": 0,
+    "error": 0
+  },
+  "scenes": [
+    {
+      "name": "offers a web testing tutorial",
+      "category": "serenity-js website",
+      "outcome": {
+        "code": 64
+      },
+      "duration": 967,
+      "startedAt": "2026-08-20T12:43:27.867Z",
+      "source": {
+        "path": "unknown",
+        "line": 0
+      },
+      "tags": [
+        {
+          "type": "browser",
+          "name": "chrome 152.0.7977.54"
+        },
+        {
+          "type": "platform",
+          "name": "linux"
+        },
+        {
+          "type": "feature",
+          "name": "serenity-js website"
+        },
+        {
+          "type": "module",
+          "name": "serenity-js-jasmine-webdriverio-template"
+        }
+      ],
+      "activities": [
+        {
+          "type": "Task",
+          "name": "Alice navigates to \"https://serenity-js.org\"",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 869,
+          "startedAt": "2026-08-20T12:43:27.883Z",
+          "children": [],
+          "location": {
+            "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+            "line": 36,
+            "column": 22
+          }
+        },
+        {
+          "type": "Task",
+          "name": "Alice ensures that the text of page element located by id ('cta-start-automating') does equal \"Start automating 🚀\"",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 34,
+          "startedAt": "2026-08-20T12:43:28.763Z",
+          "children": [],
+          "location": {
+            "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+            "line": 37,
+            "column": 20
+          }
+        }
+      ],
+      "cast": [
+        {
+          "name": "Alice",
+          "abilities": [
+            {
+              "name": "PerformActivities"
+            },
+            {
+              "name": "AnswerQuestions"
+            },
+            {
+              "name": "RaiseErrors"
+            },
+            {
+              "name": "ScheduleWork",
+              "details": "{\"scheduler\":{\"clock\":{\"timeAdjustment\":{\"milliseconds\":0}},\"interactionTimeout\":{\"milliseconds\":5000}}}"
+            },
+            {
+              "name": "BrowseTheWebWithWebdriverIO"
+            },
+            {
+              "name": "TakeNotes",
+              "details": "{\"notepad\":{}}"
+            },
+            {
+              "name": "CallAnApi",
+              "details": "{\"baseURL\":\"https://serenity-js.org/\",\"headers\":{\"common\":{\"Accept\":\"application/json, text/plain, */*\"}},\"timeout\":10000}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "offers examples to help you practice test automation",
+      "category": "serenity-js website",
+      "outcome": {
+        "code": 64
+      },
+      "duration": 1856,
+      "startedAt": "2026-08-20T12:43:28.837Z",
+      "source": {
+        "path": "unknown",
+        "line": 0
+      },
+      "tags": [
+        {
+          "type": "browser",
+          "name": "chrome 152.0.7977.54"
+        },
+        {
+          "type": "platform",
+          "name": "linux"
+        },
+        {
+          "type": "feature",
+          "name": "serenity-js website"
+        },
+        {
+          "type": "module",
+          "name": "serenity-js-jasmine-webdriverio-template"
+        }
+      ],
+      "activities": [
+        {
+          "type": "Task",
+          "name": "Apisitt ensures all GitHub systems are operational",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 135,
+          "startedAt": "2026-08-20T12:43:28.845Z",
+          "children": [
+            {
+              "type": "Task",
+              "name": "Apisitt sends a GET request to 'https://www.githubstatus.com/api/v2/status.json'",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 101,
+              "startedAt": "2026-08-20T12:43:28.846Z",
+              "children": [],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+                "line": 66,
+                "column": 26
+              },
+              "restQuery": {
+                "method": "GET",
+                "url": "https://www.githubstatus.com/api/v2/status.json",
+                "requestHeaders": "Accept: application/json, text/plain, */*\nUser-Agent: axios/1.19.0\nAccept-Encoding: gzip, compress, deflate, br",
+                "statusCode": 200,
+                "responseHeaders": "content-type: application/json; charset=utf-8\ncontent-length: 215\nconnection: close\ndate: Thu, 20 Aug 2026 12:43:01 GMT\nx-download-options: noopen\nx-permitted-cross-domain-policies: none\nreferrer-policy: strict-origin-when-cross-origin\nx-statuspage-version: f02313edced751b117e8141d4e028dc7090e623d\nstrict-transport-security: max-age=259200\nx-statuspage-skip-logging: true\naccess-control-allow-origin: *\ncache-control: max-age=10, public, s-maxage=10, stale-while-revalidate=20, stale-if-error=3600\nx-pollinator-metadata-service: status-page-web-pages\nx-runtime: 0.051472\nserver: AtlassianEdge\naccept-ranges: bytes\nx-content-type-options: nosniff\nx-xss-protection: 1; mode=block\natl-traceid: 2e99f1da56774789af9eb5cc926ad32b\natl-request-id: 2e99f1da-5677-4789-af9e-b5cc926ad32b\nreport-to: {\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}\nnel: {\"failure_fraction\": 0.01, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}\netag: W/\"4f2540bccf0c0f3ebd8b308ebe532d25\"\nvary: Accept,Accept-Encoding\nx-cache: Hit from cloudfront\nvia: 1.1 46c6865a1e01f65400f5a41239c74456.cloudfront.net (CloudFront)\nx-amz-cf-pop: IAD12-P5\nx-amz-cf-id: vHVfEthyvf7JFRmEsxQiW2_wSdM0Q4ssP5NlmgIL-ttlBzSb_ylAwQ==\nage: 27",
+                "responseBody": "{\n    \"page\": {\n        \"id\": \"kctbh9vrtdwd\",\n        \"name\": \"GitHub\",\n        \"url\": \"https://www.githubstatus.com\",\n        \"time_zone\": \"Etc/UTC\",\n        \"updated_at\": \"2026-08-20T10:44:05.071Z\"\n    },\n    \"status\": {\n        \"indicator\": \"none\",\n        \"description\": \"All Systems Operational\"\n    }\n}"
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/2156/serenity-js-jasmine-webdriverio-template-1/artifact-get-https---www-githubstatus-com-api-v2-status-json-8ab0a3ba94.json",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "type": "Task",
+              "name": "Apisitt ensures that the status of the last response does equal 200",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 1,
+              "startedAt": "2026-08-20T12:43:28.957Z",
+              "children": [],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+                "line": 66,
+                "column": 26
+              }
+            },
+            {
+              "type": "Task",
+              "name": "Apisitt ensures that GitHub Status does equal \"All Systems Operational\"",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 0,
+              "startedAt": "2026-08-20T12:43:28.969Z",
+              "children": [],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+                "line": 66,
+                "column": 26
+              }
+            }
+          ],
+          "location": {
+            "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+            "line": 66,
+            "column": 26
+          }
+        },
+        {
+          "type": "Task",
+          "name": "Wendy starts with a list containing 3 items",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 1117,
+          "startedAt": "2026-08-20T12:43:29.023Z",
+          "children": [
+            {
+              "type": "Task",
+              "name": "Wendy creates an empty todo list",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 603,
+              "startedAt": "2026-08-20T12:43:29.024Z",
+              "children": [
+                {
+                  "type": "Task",
+                  "name": "Wendy navigates to \"https://todo-app.serenity-js.org/\"",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 454,
+                  "startedAt": "2026-08-20T12:43:29.024Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 34,
+                    "column": 22
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy ensures that website title does equal \"Serenity/JS TodoApp\"",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 15,
+                  "startedAt": "2026-08-20T12:43:29.489Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+                    "line": 71,
+                    "column": 22
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy waits until \"What needs to be done?\" input box does become visible",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 61,
+                  "startedAt": "2026-08-20T12:43:29.514Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 34,
+                    "column": 22
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy empties local storage if needed",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 31,
+                  "startedAt": "2026-08-20T12:43:29.586Z",
+                  "children": [
+                    {
+                      "type": "Task",
+                      "name": "Wendy checks whether <<persisted items>>.length does have value greater than 0",
+                      "outcome": {
+                        "code": 64
+                      },
+                      "duration": 20,
+                      "startedAt": "2026-08-20T12:43:29.586Z",
+                      "children": [],
+                      "location": {
+                        "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                        "line": 20,
+                        "column": 22
+                      }
+                    }
+                  ],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 20,
+                    "column": 22
+                  }
+                }
+              ],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                "line": 34,
+                "column": 22
+              }
+            },
+            {
+              "type": "Task",
+              "name": "Wendy records an item called 'Buy dog food'",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 159,
+              "startedAt": "2026-08-20T12:43:29.637Z",
+              "children": [
+                {
+                  "type": "Task",
+                  "name": "Wendy enters \"Buy dog food\" into \"What needs to be done?\" input box",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 36,
+                  "startedAt": "2026-08-20T12:43:29.638Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 40,
+                    "column": 38
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy presses key Enter in \"What needs to be done?\" input box",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 64,
+                  "startedAt": "2026-08-20T12:43:29.685Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 41,
+                    "column": 34
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy waits until the text of displayed items does contain \"Buy dog food\"",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 26,
+                  "startedAt": "2026-08-20T12:43:29.760Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 35,
+                    "column": 47
+                  }
+                }
+              ],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                "line": 35,
+                "column": 47
+              }
+            },
+            {
+              "type": "Task",
+              "name": "Wendy records an item called 'Feed the dog'",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 150,
+              "startedAt": "2026-08-20T12:43:29.807Z",
+              "children": [
+                {
+                  "type": "Task",
+                  "name": "Wendy enters \"Feed the dog\" into \"What needs to be done?\" input box",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 33,
+                  "startedAt": "2026-08-20T12:43:29.807Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 40,
+                    "column": 38
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy presses key Enter in \"What needs to be done?\" input box",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 52,
+                  "startedAt": "2026-08-20T12:43:29.850Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 41,
+                    "column": 34
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy waits until the text of displayed items does contain \"Feed the dog\"",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 34,
+                  "startedAt": "2026-08-20T12:43:29.912Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 35,
+                    "column": 47
+                  }
+                }
+              ],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                "line": 35,
+                "column": 47
+              }
+            },
+            {
+              "type": "Task",
+              "name": "Wendy records an item called \"Book a vet's appointment\"",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 162,
+              "startedAt": "2026-08-20T12:43:29.967Z",
+              "children": [
+                {
+                  "type": "Task",
+                  "name": "Wendy enters \"Book a vet's appointment\" into \"What needs to be done?\" input box",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 40,
+                  "startedAt": "2026-08-20T12:43:29.967Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 40,
+                    "column": 38
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy presses key Enter in \"What needs to be done?\" input box",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 48,
+                  "startedAt": "2026-08-20T12:43:30.017Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 41,
+                    "column": 34
+                  }
+                },
+                {
+                  "type": "Task",
+                  "name": "Wendy waits until the text of displayed items does contain \"Book a vet's appointment\"",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 44,
+                  "startedAt": "2026-08-20T12:43:30.075Z",
+                  "children": [],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 35,
+                    "column": 47
+                  }
+                }
+              ],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                "line": 35,
+                "column": 47
+              }
+            }
+          ],
+          "location": {
+            "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+            "line": 71,
+            "column": 22
+          }
+        },
+        {
+          "type": "Task",
+          "name": "Wendy marks the following items as completed: [ 'Buy dog food', 'Feed the dog' ]",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 475,
+          "startedAt": "2026-08-20T12:43:30.151Z",
+          "children": [
+            {
+              "type": "Task",
+              "name": "Wendy marks an item called 'Buy dog food' as completed",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 226,
+              "startedAt": "2026-08-20T12:43:30.151Z",
+              "children": [
+                {
+                  "type": "Task",
+                  "name": "Wendy checks whether CSS classes of an item called 'Buy dog food' does not contain \"completed\"",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 216,
+                  "startedAt": "2026-08-20T12:43:30.151Z",
+                  "children": [
+                    {
+                      "type": "Task",
+                      "name": "Wendy toggles the completion status of an item called 'Buy dog food'",
+                      "outcome": {
+                        "code": 64
+                      },
+                      "duration": 163,
+                      "startedAt": "2026-08-20T12:43:30.194Z",
+                      "children": [
+                        {
+                          "type": "Task",
+                          "name": "Wendy clicks on toggle button of an item called 'Buy dog food'",
+                          "outcome": {
+                            "code": 64
+                          },
+                          "duration": 152,
+                          "startedAt": "2026-08-20T12:43:30.194Z",
+                          "children": [],
+                          "location": {
+                            "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoListItem.ts",
+                            "line": 24,
+                            "column": 19
+                          }
+                        }
+                      ],
+                      "location": {
+                        "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoListItem.ts",
+                        "line": 13,
+                        "column": 31
+                      }
+                    }
+                  ],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 47,
+                    "column": 55
+                  }
+                }
+              ],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                "line": 47,
+                "column": 55
+              }
+            },
+            {
+              "type": "Task",
+              "name": "Wendy marks an item called 'Feed the dog' as completed",
+              "outcome": {
+                "code": 64
+              },
+              "duration": 229,
+              "startedAt": "2026-08-20T12:43:30.387Z",
+              "children": [
+                {
+                  "type": "Task",
+                  "name": "Wendy checks whether CSS classes of an item called 'Feed the dog' does not contain \"completed\"",
+                  "outcome": {
+                    "code": 64
+                  },
+                  "duration": 218,
+                  "startedAt": "2026-08-20T12:43:30.388Z",
+                  "children": [
+                    {
+                      "type": "Task",
+                      "name": "Wendy toggles the completion status of an item called 'Feed the dog'",
+                      "outcome": {
+                        "code": 64
+                      },
+                      "duration": 141,
+                      "startedAt": "2026-08-20T12:43:30.454Z",
+                      "children": [
+                        {
+                          "type": "Task",
+                          "name": "Wendy clicks on toggle button of an item called 'Feed the dog'",
+                          "outcome": {
+                            "code": 64
+                          },
+                          "duration": 130,
+                          "startedAt": "2026-08-20T12:43:30.455Z",
+                          "children": [],
+                          "location": {
+                            "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoListItem.ts",
+                            "line": 24,
+                            "column": 19
+                          }
+                        }
+                      ],
+                      "location": {
+                        "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoListItem.ts",
+                        "line": 13,
+                        "column": 31
+                      }
+                    }
+                  ],
+                  "location": {
+                    "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                    "line": 47,
+                    "column": 55
+                  }
+                }
+              ],
+              "location": {
+                "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/serenity/todo-list-app/TodoList.ts",
+                "line": 47,
+                "column": 55
+              }
+            }
+          ],
+          "location": {
+            "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+            "line": 76,
+            "column": 22
+          }
+        },
+        {
+          "type": "Task",
+          "name": "Wendy ensures that number of items left does equal 1",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 25,
+          "startedAt": "2026-08-20T12:43:30.636Z",
+          "children": [],
+          "location": {
+            "path": "/__w/serenity-js-jasmine-webdriverio-template/serenity-js-jasmine-webdriverio-template/test/specs/serenity-js_website.spec.ts",
+            "line": 80,
+            "column": 20
+          }
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "test-runs/2156/serenity-js-jasmine-webdriverio-template-1/artifact-get-https---www-githubstatus-com-api-v2-status-json-8ab0a3ba94.json",
+          "type": "screenshot",
+          "activityId": "c9feaiuzpyqo7ansunw2t83e"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Apisitt",
+          "abilities": [
+            {
+              "name": "PerformActivities"
+            },
+            {
+              "name": "AnswerQuestions"
+            },
+            {
+              "name": "RaiseErrors"
+            },
+            {
+              "name": "ScheduleWork",
+              "details": "{\"scheduler\":{\"clock\":{\"timeAdjustment\":{\"milliseconds\":0}},\"interactionTimeout\":{\"milliseconds\":5000}}}"
+            },
+            {
+              "name": "BrowseTheWebWithWebdriverIO"
+            },
+            {
+              "name": "TakeNotes",
+              "details": "{\"notepad\":{}}"
+            },
+            {
+              "name": "CallAnApi",
+              "details": "{\"baseURL\":\"https://serenity-js.org/\",\"headers\":{\"common\":{\"Accept\":\"application/json, text/plain, */*\"}},\"timeout\":10000}"
+            }
+          ]
+        },
+        {
+          "name": "Wendy",
+          "abilities": [
+            {
+              "name": "PerformActivities"
+            },
+            {
+              "name": "AnswerQuestions"
+            },
+            {
+              "name": "RaiseErrors"
+            },
+            {
+              "name": "ScheduleWork",
+              "details": "{\"scheduler\":{\"clock\":{\"timeAdjustment\":{\"milliseconds\":0}},\"interactionTimeout\":{\"milliseconds\":5000}}}"
+            },
+            {
+              "name": "BrowseTheWebWithWebdriverIO"
+            },
+            {
+              "name": "TakeNotes",
+              "details": "{\"notepad\":{}}"
+            },
+            {
+              "name": "CallAnApi",
+              "details": "{\"baseURL\":\"https://serenity-js.org/\",\"headers\":{\"common\":{\"Accept\":\"application/json, text/plain, */*\"}},\"timeout\":10000}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "type": "browser",
+      "name": "chrome 152.0.7977.54"
+    },
+    {
+      "type": "platform",
+      "name": "linux"
+    },
+    {
+      "type": "feature",
+      "name": "serenity-js website"
+    },
+    {
+      "type": "module",
+      "name": "serenity-js-jasmine-webdriverio-template"
+    }
+  ],
+  "testRunner": {
+    "name": "Jasmine",
+    "version": "6.3.0"
+  },
+  "systemContext": {
+    "nodeVersion": "v24.19.0",
+    "os": {
+      "name": "linux",
+      "version": "6.17.0-1022-azure",
+      "arch": "x64"
+    },
+    "serenityVersion": "3.45.8",
+    "runtime": {
+      "provider": "GitHub Actions",
+      "buildNumber": "2156",
+      "branch": "main",
+      "commit": "3d8ecb620c1bb190dc3d1882e32628d5eb73811a",
+      "commitMessage": "Merge pull request #478 from serenity-js/docs/improve-readme-onboarding",
+      "commitAuthor": "Jan Molak",
+      "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-webdriverio-template/actions/runs/32370222802",
+      "workflow": "build",
+      "repositoryUrl": "https://github.com/serenity-js/serenity-js-jasmine-webdriverio-template",
+      "triggeredBy": "jan-molak"
+    },
+    "projectName": "serenity-js-jasmine-webdriverio-template",
+    "packageManager": "npm"
+  },
+  "testRunId": "2156",
+  "moduleId": "serenity-js-jasmine-webdriverio-template",
+  "attempt": 1
+}
