@@ -1,0 +1,59 @@
+{
+  "$schema": "https://serenity-js.org/schemas/report-summary.json",
+  "generated": "2026-08-20T01:54:56.346Z",
+  "title": "Jasmine",
+  "schemaVersion": 1,
+  "reportUrl": "./index.html",
+  "ci": {
+    "commit": "0d46dd87acc08355145589c00c216dc45aacb923",
+    "branch": "main",
+    "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-webdriverio-template/actions/runs/32322634139"
+  },
+  "latestRun": {
+    "timestamp": "2026-08-20T01:54:52.210Z",
+    "label": "2154",
+    "totals": {
+      "passed": 2,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "compromised": 0,
+      "error": 0
+    },
+    "duration": 4097
+  },
+  "runs": 2,
+  "delta": {
+    "passed": 0,
+    "failed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "compromised": 0,
+    "error": 0
+  },
+  "failureClusters": [],
+  "consistency": {
+    "flaky": [],
+    "inconsistent": [],
+    "degraded": [],
+    "recovered": []
+  },
+  "scores": {
+    "passRate": 100,
+    "completeness": 100,
+    "consistency": 100,
+    "confidence": 100
+  },
+  "slowest": [
+    {
+      "name": "offers examples to help you practice test automation",
+      "source": "unknown:0",
+      "duration": 2849
+    },
+    {
+      "name": "offers a web testing tutorial",
+      "source": "unknown:0",
+      "duration": 1245
+    }
+  ]
+}
